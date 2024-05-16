@@ -3,7 +3,7 @@
 
 <template>
   <div class="wrapper">
-  <h3>Under Construction</h3>
+  <h3>Still cooking...</h3>
   <img alt="Under Construction" src="./assets/b.gif" class="logo" />
   </div>
 </template>
