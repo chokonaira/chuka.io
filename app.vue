@@ -6,7 +6,10 @@
     <h3>Still cooking...</h3>
     <img alt="Under Construction" src="./assets/b.gif" class="logo" />
     <div class="body">
-      <p>Interested in exploring a partnership or discussing a business idea? Let’s connect — book a free 30-minute call with me.</p>
+      <p>Interested in exploring a partnership or discussing a business idea?</p>
+      <a href="https://calendly.com/henry-ok/30min" target="_blank" class="cta-button">
+        Book a free 30-minute call
+      </a>
     </div>
     <div class="footer">
       <p>© chokostudio</p>
@@ -59,9 +62,25 @@ h3 {
   font-size: 1.1rem;
   line-height: 1.6;
   background: #fff;
-  padding: 16px 24px;
+  padding: 24px;
   border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 20px;
+  background-color: #6478B3;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #4b5f91;
 }
 
 .footer {
