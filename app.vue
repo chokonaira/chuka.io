@@ -88,12 +88,12 @@ onMounted(() => {
 
 :root {
   --bg-primary: #ffffff;
-  --bg-secondary: #f8f9fa;
-  --text-primary: #1a1a1a;
-  --text-secondary: #6c757d;
-  --accent-primary: #0066cc;
-  --accent-secondary: #007bff;
-  --border-color: rgba(0, 102, 204, 0.1);
+  --bg-secondary: #f0f2f5;
+  --text-primary: #000000;
+  --text-secondary: #4a5568;
+  --accent-primary: #0052cc;
+  --accent-secondary: #0066ff;
+  --border-color: rgba(0, 82, 204, 0.15);
   --font-mono: 'SF Mono', 'Fira Code', 'Courier New', monospace;
   --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
 }
@@ -119,11 +119,11 @@ body {
   width: 100%;
   height: 100%;
   background-image: 
-    linear-gradient(rgba(0, 102, 204, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 102, 204, 0.03) 1px, transparent 1px);
-  background-size: 50px 50px;
+    linear-gradient(rgba(0, 82, 204, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 82, 204, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
   pointer-events: none;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .content {
@@ -157,8 +157,8 @@ body {
 }
 
 .name {
-  font-size: clamp(2.5rem, 5vw, 4rem);
-  font-weight: 700;
+  font-size: clamp(2.8rem, 6vw, 4rem);
+  font-weight: 800;
   color: var(--text-primary);
   letter-spacing: -0.02em;
   margin-bottom: 0.5rem;
@@ -202,12 +202,12 @@ body {
 }
 
 .card {
-  background: rgba(255, 255, 255, 0.9);
+  background: #ffffff;
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.12);
   border-radius: 12px;
   padding: 2.5rem;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
 }
 
 .card-header {
@@ -232,7 +232,8 @@ body {
   color: var(--text-secondary);
   line-height: 1.8;
   margin-bottom: 2rem;
-  font-size: clamp(1rem, 1.5vw, 1.1rem);
+  font-size: clamp(1.05rem, 1.5vw, 1.15rem);
+  font-weight: 400;
 }
 
 .actions {
@@ -273,7 +274,8 @@ body {
 .btn-secondary {
   background: transparent;
   color: var(--text-primary);
-  border-color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.25);
+  border-width: 2px;
 }
 
 .btn-secondary:hover {
@@ -298,10 +300,11 @@ body {
 .skill {
   padding: 0.375rem 0.875rem;
   background: var(--bg-secondary);
-  border: 1px solid rgba(0, 102, 204, 0.2);
+  border: 2px solid rgba(0, 82, 204, 0.25);
   color: var(--accent-primary);
   border-radius: 4px;
   font-size: 0.85rem;
+  font-weight: 500;
   font-family: var(--font-mono);
   transition: all 0.2s ease;
 }
@@ -365,37 +368,46 @@ body {
 
 @media (max-width: 480px) {
   .name {
-    font-size: 2rem;
+    font-size: 2.2rem;
+    font-weight: 800;
   }
   
   .title {
-    font-size: 1rem;
+    font-size: 1.05rem;
+    font-weight: 500;
   }
   
   .typing-container {
-    font-size: 0.85rem;
-  }
-  
-  .card {
-    padding: 1.5rem;
-  }
-  
-  .bio {
-    font-size: 0.95rem;
-  }
-  
-  .btn {
-    padding: 0.75rem 1.25rem;
     font-size: 0.9rem;
   }
   
+  .card {
+    padding: 1.75rem 1.25rem;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+  }
+  
+  .bio {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #2d3748;
+  }
+  
+  .btn {
+    padding: 1rem 1.5rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
   .skill {
-    font-size: 0.8rem;
-    padding: 0.3rem 0.7rem;
+    font-size: 0.85rem;
+    padding: 0.4rem 0.8rem;
+    font-weight: 500;
   }
   
   .footer {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
   }
 }
 
