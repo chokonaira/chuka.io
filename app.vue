@@ -48,7 +48,7 @@ onMounted(() => {
           </p>
           
           <div class="actions">
-            <a href="https://henryokonkwo.hashnode.dev/" target="_blank" class="btn btn-primary">
+            <a href="https://chuka.blog" target="_blank" class="btn btn-primary">
               <span class="btn-text">Visit Blog</span>
               <span class="btn-arrow">→</span>
             </a>
