@@ -388,7 +388,7 @@ body {
 .nav-links a {
   font-family: var(--mono);
   font-size: 0.8125rem;
-  color: var(--text-3);
+  color: var(--text);
   text-decoration: none;
   transition: color 0.15s;
 }
@@ -542,7 +542,7 @@ body {
   margin-bottom: 0.25rem;
 }
 .project-top h3 {
-  font-size: 1.0625rem;
+  font-size: 1.125rem;
   font-weight: 600;
   letter-spacing: -0.01em;
 }
@@ -558,13 +558,13 @@ body {
 .badge-dev { background: #fff7ed; color: var(--orange); }
 
 .project-tagline {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--text-3);
   margin-bottom: 0.5rem;
 }
 
 .project-desc {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--text-2);
   line-height: 1.6;
   margin-bottom: 0.75rem;
@@ -592,7 +592,7 @@ body {
   flex-wrap: wrap;
 }
 .project-links a {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   font-weight: 500;
   color: var(--text);
   text-decoration: none;
@@ -810,7 +810,7 @@ body {
   .project-links a { font-size: 0.75rem; }
   .rec-grid { grid-template-columns: 1fr; }
   .rec-card { padding: 1rem; }
-  .rec-quote { font-size: 0.75rem; }
+  .rec-quote { font-size: 0.875rem; }
   .cert-title { font-size: 0.8125rem; }
   .cert-meta { font-size: 0.625rem; }
   .contact-links { gap: 0.375rem 1rem; }
@@ -831,7 +831,7 @@ body {
   .projects-grid { grid-template-columns: 1fr; }
   .project-img { height: 140px; }
   .rec-grid { grid-template-columns: 1fr; }
-  .rec-quote { font-size: 0.75rem; }
+  .rec-quote { font-size: 0.875rem; }
 }
 
 @media (min-width: 641px) and (max-width: 1023px) {

@@ -19,15 +19,16 @@ export default defineNuxtConfig({
         { property: 'og:title', content: 'Henry Okonkwo — Senior Software Engineer' },
         { property: 'og:description', content: 'Senior Software Engineer based in Berlin. Building WalletGate, Docgate, and Sprevia.' },
         { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://chuka.io' },
         { property: 'og:locale', content: 'en_US' },
         { property: 'og:site_name', content: 'Henry Okonkwo' },
-        { property: 'og:image', content: 'https://www.walletgate.app/og-image.png' },
+        { property: 'og:image', content: 'https://chuka.io/hero.gif' },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'Henry Okonkwo — Senior Software Engineer' },
         { name: 'twitter:description', content: 'Senior Software Engineer based in Berlin. Building WalletGate, Docgate, and Sprevia.' },
-        { name: 'twitter:image', content: 'https://www.walletgate.app/og-image.png' }
+        { name: 'twitter:image', content: 'https://chuka.io/hero.gif' }
       ],
       script: [
         {
