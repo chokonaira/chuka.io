@@ -188,7 +188,7 @@ const recommendations = [
           8 years shipping production software.
         </p>
         <div class="stack">
-          <span v-for="tag in ['Full Stack', 'Frontend', 'AI / ML']" :key="tag">{{ tag }}</span>
+          <span v-for="tag in ['Full Stack', 'Frontend', 'Artificial Intelligence']" :key="tag">{{ tag }}</span>
         </div>
       </section>
 
