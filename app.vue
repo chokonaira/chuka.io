@@ -188,7 +188,7 @@ const recommendations = [
       <!-- Projects -->
       <section id="projects" class="section">
         <div class="section-header">
-          <span class="section-label">Projects</span>
+          <span class="section-label">Personal Projects</span>
           <h2 class="section-title">Things I've built</h2>
         </div>
 
