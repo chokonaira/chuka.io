@@ -164,17 +164,12 @@ const recommendations = [
 
       <!-- Hero -->
       <section class="hero">
-        <div class="hero-banner">
-          <img src="/hero.gif" alt="" class="hero-bg" aria-hidden="true" />
-          <div class="hero-overlay">
-            <h1 class="hero-name">Henry Okonkwo</h1>
-            <p class="hero-role">Senior Software Engineer</p>
-            <div class="hero-typing" aria-label="Currently shipping WalletGate, Docgate, and Sprevia.">
-              <span class="prompt" aria-hidden="true">~$</span>
-              <span class="typed">{{ typedText }}</span>
-              <span class="blinker" :class="{ on: cursorVisible }" aria-hidden="true">|</span>
-            </div>
-          </div>
+        <h1 class="hero-name">Henry Okonkwo</h1>
+        <p class="hero-role">Senior Software Engineer</p>
+        <div class="hero-typing" aria-label="Currently shipping WalletGate, Docgate, and Sprevia.">
+          <span class="prompt" aria-hidden="true">~$</span>
+          <span class="typed">{{ typedText }}</span>
+          <span class="blinker" :class="{ on: cursorVisible }" aria-hidden="true">|</span>
         </div>
       </section>
 
@@ -402,37 +397,6 @@ body {
   padding: 3.5rem 0 2.5rem;
   animation: fadeUp 0.5s ease 0.1s both;
 }
-
-.hero-banner {
-  position: relative;
-  border-radius: 14px;
-  overflow: hidden;
-  background: #171717;
-}
-
-.hero-bg {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-  object-position: center;
-  display: block;
-  opacity: 0.25;
-}
-
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 2rem 2.5rem;
-}
-
-.hero-overlay .hero-name { color: #ffffff; }
-.hero-overlay .hero-role { color: rgba(255,255,255,0.5); }
-.hero-overlay .prompt { color: rgba(255,255,255,0.35); }
-.hero-overlay .typed { color: rgba(255,255,255,0.7); }
-.hero-overlay .blinker { color: #ffffff; }
 
 .hero-name {
   font-size: clamp(2.25rem, 6vw, 3.25rem);
@@ -830,8 +794,6 @@ body {
   .nav-links { gap: 0.75rem; }
   .nav-links a { font-size: 0.6875rem; }
   .hero { padding: 2rem 0 1.5rem; }
-  .hero-bg { height: 180px; }
-  .hero-overlay { padding: 1.25rem 1.5rem; }
   .hero-name { font-size: 1.75rem; }
   .hero-role { font-size: 0.75rem; margin-bottom: 1rem; }
   .hero-typing { font-size: 0.6875rem; }
@@ -859,8 +821,6 @@ body {
   .nav-links { gap: 1rem; }
   .nav-links a { font-size: 0.6875rem; }
   .hero { padding: 2.5rem 0 1.75rem; }
-  .hero-bg { height: 200px; }
-  .hero-overlay { padding: 1.5rem 2rem; }
   .hero-name { font-size: 2rem; }
   .hero-role { font-size: 0.75rem; }
   .hero-typing { font-size: 0.75rem; }
