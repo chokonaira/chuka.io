@@ -177,8 +177,9 @@ const recommendations = [
       <section class="about">
         <p class="about-text">
           Software engineer based in Berlin, 7 years shipping production
-          software across full stack, AI/ML, and data compliance. Interested
-          in working on what comes next in AI, robotics, and intelligent systems.
+          software across full stack web, native apps, AI/ML, fintech,
+          and data privacy and compliance. Interested in working on project ideas around AI
+          (machine learning, LLMs), robotics, and automation.
         </p>
         <div class="stack">
           <span v-for="tag in ['Full Stack', 'Frontend', 'Artificial Intelligence']" :key="tag">{{ tag }}</span>
