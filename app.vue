@@ -2,7 +2,7 @@
 import { onMounted, onUnmounted, ref } from 'vue'
 
 const typedText = ref('')
-const fullText = 'Currently shipping WalletGate, Docgate, and Sprevia.'
+const fullText = 'Currently building Gatewise for WalletGate.'
 const cursorVisible = ref(true)
 const mounted = ref(false)
 let cursorInterval = null
@@ -166,7 +166,7 @@ const recommendations = [
       <section class="hero">
         <h1 class="hero-name">Henry Okonkwo</h1>
         <p class="hero-role">Senior Software Engineer</p>
-        <div class="hero-typing" aria-label="Currently shipping WalletGate, Docgate, and Sprevia.">
+        <div class="hero-typing" aria-label="Currently building Gatewise for WalletGate.">
           <span class="prompt" aria-hidden="true">~$</span>
           <span class="typed">{{ typedText }}</span>
           <span class="blinker" :class="{ on: cursorVisible }" aria-hidden="true">|</span>
@@ -389,6 +389,8 @@ body {
   font-family: var(--mono);
   font-size: 0.75rem;
   color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
   text-decoration: none;
   transition: color 0.15s;
 }
