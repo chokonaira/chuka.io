@@ -141,7 +141,7 @@ const posts = [
 const recommendations = [
   { quote: 'The successful build, customer success and subsequent acquisition of Kormoon would not have been possible without the diligence, care and skill of Henry. His world class skills would be a vital asset to the technology scene.', author: 'Paul McCormack', role: 'Dir of Product, Salesforce ·Founder, Kormoon Ltd' },
   { quote: 'Henry is a dedicated, skilled, and innovative professional. He led the modernization of our frontend - upgrading from Vue2 to Vue3, migrating to Pinia, and raising test coverage to 56%. I wholeheartedly recommend him.', author: 'Daniel Henze', role: 'VP of Engineering · ArtNight' },
-  { quote: 'Henry took on a team leadership role quickly after starting, becoming a trusted member of the team. He was always communicative and proactive. I would jump at the chance to bring him onto any software team.', author: 'James Suchy', role: 'CTO, Quantum Battery Labs · formerly MD at 8th Light' },
+  { quote: 'Henry took on a team leadership role quickly after starting, becoming a trusted member of the team. He was always communicative and proactive. I would jump at the chance to bring him onto any software team.', author: 'James Suchy', role: 'Managing Director · 8th Light' },
   { quote: 'Henry contributed to several mobile and web applications for global clients. He initiated and grew our community of engineers in Rwanda and led technology engagements with speakers from all over the globe.', author: 'Robert Rugamba', role: 'Managing Director ·One World Coders Rwanda' },
   { quote: 'I worked with Henry in a mentor-mentee capacity where we collaborated on different projects. He excelled at both tasks by delivering high quality, working code in a timely manner and under specific time constraints. He was also a very effective communicator. I would strongly and without hesitation recommend Henry to any company considering him.', author: 'Makis Otman', role: 'Director, Modest Owl Ltd · Senior Software Engineer, Sona' },
   { quote: 'I personally mentored Henry to coding. He came onboard with absolutely no knowledge of computer science, but since then has acquired a lot of valuable skills. I have been mentoring students on web development since 2013, but Henry is one of the most outstanding students I have seen over time because he came from an entirely different background of Banking/Accounting, and persisted to shifting it through.', author: 'Edwin Okonkwo', role: 'Senior Software Engineer, AI Agents · Zendesk' },
@@ -176,9 +176,9 @@ const recommendations = [
       <!-- About -->
       <section class="about">
         <p class="about-text">
-          I build products people actually need — identity verification,
-          AI document understanding, and language learning. Based in Berlin,
-          7 years shipping production software.
+          Software engineer based in Berlin, 7 years shipping production
+          software across full stack, AI/ML, and data compliance. Interested
+          in working on what comes next in AI, robotics, and intelligent systems.
         </p>
         <div class="stack">
           <span v-for="tag in ['Full Stack', 'Frontend', 'Artificial Intelligence']" :key="tag">{{ tag }}</span>
@@ -386,7 +386,7 @@ body {
 }
 
 .nav-links a {
-  font-family: var(--mono);
+  font-family: var(--font);
   font-size: 0.8125rem;
   color: var(--text-2);
   text-decoration: none;
