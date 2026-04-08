@@ -33,6 +33,17 @@ const currentYear = new Date().getFullYear()
 
 const projects = [
   {
+    name: 'Docgate',
+    tagline: 'AI Document Understanding for European Residents',
+    desc: 'Upload any official document ·government letters, tax notices, contracts ·and get a clear explanation in your language with deadlines, action items, and reply drafts. Supports 8 countries and 21 languages.',
+    stack: ['Next.js', 'TypeScript', 'Claude API', 'IndexedDB', 'PWA', 'Stripe'],
+    status: 'Live',
+    links: [
+      { label: 'Website', url: 'https://www.docgate.app' }
+    ],
+    image: 'https://docgate.app/opengraph-image?1d3a61b585a48b38'
+  },
+  {
     name: 'WalletGate',
     tagline: 'EUDI Wallet Verification API for Developers',
     desc: 'A developer-first API that lets any app integrate EU Digital Identity Wallet verification. Supports age checks, identity verification, and residency ·all compliant with eIDAS 2.0 and OpenID4VP.',
@@ -55,17 +66,6 @@ const projects = [
     links: [
       { label: 'Part of WalletGate', url: 'https://www.walletgate.app' }
     ]
-  },
-  {
-    name: 'Docgate',
-    tagline: 'AI Document Understanding for European Residents',
-    desc: 'Upload any official document ·government letters, tax notices, contracts ·and get a clear explanation in your language with deadlines, action items, and reply drafts. Supports 8 countries and 21 languages.',
-    stack: ['Next.js', 'TypeScript', 'Claude API', 'IndexedDB', 'PWA', 'Stripe'],
-    status: 'Live',
-    links: [
-      { label: 'Website', url: 'https://www.docgate.app' }
-    ],
-    image: 'https://docgate.app/opengraph-image?1d3a61b585a48b38'
   },
   {
     name: 'Sprevia',
