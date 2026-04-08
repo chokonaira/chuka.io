@@ -177,9 +177,8 @@ const recommendations = [
       <section class="about">
         <p class="about-text">
           Software engineer based in Berlin, 7 years shipping production
-          software across full stack web, native apps, AI/ML, fintech,
-          and data privacy and compliance. Interested in working on project ideas around AI
-          (machine learning, LLMs), robotics, and automation.
+          software across full stack web, native apps, AI/ML, fintech, data privacy and compliance. Interested in working on project ideas around AI
+          (machine learning, LLMs) and automation.
         </p>
         <div class="stack">
           <span v-for="tag in ['Full Stack', 'Frontend', 'Artificial Intelligence']" :key="tag">{{ tag }}</span>
@@ -293,7 +292,7 @@ const recommendations = [
           <a href="mailto:henry@chuka.io">henry@chuka.io</a>
           <a href="https://calendly.com/henry-ok/30min" target="_blank" rel="noopener">Schedule a call</a>
           <a href="https://github.com/chokonaira" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://linkedin.com/in/henry-okonkwo" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://linkedin.com/in/chokonaira" target="_blank" rel="noopener">LinkedIn</a>
           <span class="contact-location">Berlin, Germany</span>
         </div>
       </section>
@@ -504,11 +503,12 @@ body {
   border: 1px solid var(--border);
   border-radius: 12px;
   overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
   transition: border-color 0.2s, box-shadow 0.2s;
 }
 .project-card:hover {
   border-color: var(--border-hover);
-  box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.07);
 }
 
 .project-img {
