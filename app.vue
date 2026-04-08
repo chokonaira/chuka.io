@@ -36,7 +36,7 @@ const projects = [
     name: 'Docgate',
     tagline: 'AI Document Understanding for European Residents',
     desc: 'Upload any official document - government letters, tax notices, contracts - and get a clear explanation in your language with deadlines, action items, and reply drafts. Supports 8 countries and 21 languages.',
-    stack: ['Next.js', 'TypeScript', 'Claude API', 'IndexedDB', 'PWA', 'Stripe'],
+    stack: ['Next.js', 'PostgreSQL', 'Claude API', 'MCP', 'Stripe', 'PDF/DOCX Parsing'],
     status: 'Live',
     links: [
       { label: 'Website', url: 'https://www.docgate.app' }
@@ -47,7 +47,7 @@ const projects = [
     name: 'Sprevia',
     tagline: 'AI-Powered Language Learning Platform',
     desc: 'Adaptive German language learning with AI speaking practice, spaced repetition, TELC exam prep, and structured daily sessions. Tracks progress across all language skills.',
-    stack: ['React', 'Node.js', 'AI/NLP', 'Spaced Repetition', 'Speech Recognition'],
+    stack: ['Next.js', 'Supabase', 'Claude API', 'Web Speech API', 'Stripe', 'Spaced Repetition'],
     status: 'Live',
     links: [
       { label: 'Website', url: 'https://www.sprevia.com' }
@@ -58,7 +58,7 @@ const projects = [
     name: 'WalletGate',
     tagline: 'EUDI Wallet Verification API for Developers',
     desc: 'A developer-first API that lets any app integrate EU Digital Identity Wallet verification. Supports age checks, identity verification, and residency - all compliant with eIDAS 2.0 and OpenID4VP.',
-    stack: ['TypeScript', 'Node.js', 'Express', 'Prisma', 'OpenID4VP', 'Stripe', 'Redis'],
+    stack: ['TypeScript', 'Express', 'PostgreSQL', 'Redis', 'OpenID4VP', 'JOSE/JWT', 'Stripe', 'Resend'],
     status: 'Live',
     links: [
       { label: 'Website', url: 'https://www.walletgate.app' },
@@ -72,7 +72,7 @@ const projects = [
     name: 'Gatewise',
     tagline: 'Shopify Age Verification & Compliance Plugin',
     desc: 'A Shopify app that enforces age verification at checkout for regulated products - alcohol, CBD, vape, gaming. Produces audit-ready compliance evidence and is built to be EUDI-ready.',
-    stack: ['Remix', 'Shopify CLI', 'Polaris', 'WebAssembly', 'GraphQL'],
+    stack: ['Remix', 'Shopify Functions', 'Polaris', 'GraphQL', 'App Bridge'],
     status: 'In Dev',
     links: [
       { label: 'Part of WalletGate', url: 'https://www.walletgate.app' }
