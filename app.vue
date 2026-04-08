@@ -44,6 +44,17 @@ const projects = [
     image: 'https://docgate.app/opengraph-image?1d3a61b585a48b38'
   },
   {
+    name: 'Sprevia',
+    tagline: 'AI-Powered Language Learning Platform',
+    desc: 'Adaptive German language learning with AI speaking practice, spaced repetition, TELC exam prep, and structured daily sessions. Tracks progress across all language skills.',
+    stack: ['React', 'Node.js', 'AI/NLP', 'Spaced Repetition', 'Speech Recognition'],
+    status: 'Live',
+    links: [
+      { label: 'Website', url: 'https://www.sprevia.com' }
+    ],
+    image: 'https://sprevia.com/opengraph-image?e8b116d450370d59'
+  },
+  {
     name: 'WalletGate',
     tagline: 'EUDI Wallet Verification API for Developers',
     desc: 'A developer-first API that lets any app integrate EU Digital Identity Wallet verification. Supports age checks, identity verification, and residency ·all compliant with eIDAS 2.0 and OpenID4VP.',
@@ -66,17 +77,6 @@ const projects = [
     links: [
       { label: 'Part of WalletGate', url: 'https://www.walletgate.app' }
     ]
-  },
-  {
-    name: 'Sprevia',
-    tagline: 'AI-Powered Language Learning Platform',
-    desc: 'Adaptive German language learning with AI speaking practice, spaced repetition, TELC exam prep, and structured daily sessions. Tracks progress across all language skills.',
-    stack: ['React', 'Node.js', 'AI/NLP', 'Spaced Repetition', 'Speech Recognition'],
-    status: 'Live',
-    links: [
-      { label: 'Website', url: 'https://www.sprevia.com' }
-    ],
-    image: 'https://sprevia.com/opengraph-image?e8b116d450370d59'
   }
 ]
 
