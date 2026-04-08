@@ -153,7 +153,7 @@ const recommendations = [
     <div class="layout">
       <!-- Nav -->
       <nav class="nav">
-        <span class="nav-logo">h.o</span>
+        <a href="#" class="nav-logo" @click.prevent="window.scrollTo({ top: 0, behavior: 'smooth' })">h.o</a>
         <div class="nav-links">
           <a href="#projects">projects</a>
           <a href="#writing">writing</a>
@@ -376,6 +376,8 @@ body {
   font-weight: 500;
   color: var(--text);
   letter-spacing: -0.02em;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .nav-links {
