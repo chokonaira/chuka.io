@@ -12,7 +12,7 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'Henry Okonkwo — Senior Software Engineer based in Berlin. Building WalletGate, Docgate, and Sprevia. 8 years shipping full-stack, native, and AI-powered products.' },
+        { name: 'description', content: 'Henry Okonkwo — Senior Software Engineer based in Berlin. Building WalletGate, Docgate, and Sprevia. 7 years shipping full-stack, native, and AI-powered products.' },
         { name: 'theme-color', content: '#ffffff' },
         { name: 'author', content: 'Henry Okonkwo' },
         { name: 'robots', content: 'index, follow' },
