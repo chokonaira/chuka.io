@@ -372,7 +372,7 @@ body {
 
 .nav-logo {
   font-family: var(--mono);
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--text);
   letter-spacing: -0.02em;
@@ -387,7 +387,7 @@ body {
 
 .nav-links a {
   font-family: var(--mono);
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   color: var(--text-3);
   text-decoration: none;
   transition: color 0.15s;
@@ -401,7 +401,7 @@ body {
 }
 
 .hero-name {
-  font-size: clamp(2.25rem, 6vw, 3.25rem);
+  font-size: clamp(2.5rem, 7vw, 3.75rem);
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: -0.035em;
@@ -411,7 +411,7 @@ body {
 
 .hero-role {
   font-family: var(--mono);
-  font-size: 0.8125rem;
+  font-size: 0.9375rem;
   color: var(--text-3);
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -423,7 +423,7 @@ body {
   align-items: center;
   gap: 0.4rem;
   font-family: var(--mono);
-  font-size: 0.8125rem;
+  font-size: 0.9375rem;
   color: var(--text-2);
 }
 
@@ -439,7 +439,7 @@ body {
 }
 
 .about-text {
-  font-size: 1rem;
+  font-size: 1.0625rem;
   line-height: 1.75;
   color: var(--text-2);
   margin-bottom: 1.25rem;
@@ -453,7 +453,7 @@ body {
 
 .stack span {
   font-family: var(--mono);
-  font-size: 0.6875rem;
+  font-size: 0.75rem;
   padding: 0.3rem 0.7rem;
   border: 1px solid var(--border);
   border-radius: 100px;
@@ -476,7 +476,7 @@ body {
 
 .section-label {
   font-family: var(--mono);
-  font-size: 0.6875rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--text-3);
@@ -484,7 +484,7 @@ body {
 }
 
 .section-title {
-  font-size: 1.375rem;
+  font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: -0.025em;
 }
@@ -542,7 +542,7 @@ body {
   margin-bottom: 0.25rem;
 }
 .project-top h3 {
-  font-size: 1rem;
+  font-size: 1.0625rem;
   font-weight: 600;
   letter-spacing: -0.01em;
 }
@@ -558,13 +558,13 @@ body {
 .badge-dev { background: #fff7ed; color: var(--orange); }
 
 .project-tagline {
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   color: var(--text-3);
   margin-bottom: 0.5rem;
 }
 
 .project-desc {
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   color: var(--text-2);
   line-height: 1.6;
   margin-bottom: 0.75rem;
@@ -578,7 +578,7 @@ body {
 }
 .project-stack span {
   font-family: var(--mono);
-  font-size: 0.625rem;
+  font-size: 0.6875rem;
   padding: 0.15rem 0.4rem;
   border-radius: 3px;
   background: #fafafa;
@@ -592,7 +592,7 @@ body {
   flex-wrap: wrap;
 }
 .project-links a {
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   font-weight: 500;
   color: var(--text);
   text-decoration: none;
@@ -628,7 +628,7 @@ body {
 .post-info { display: flex; flex-direction: column; gap: 0.25rem; }
 
 .post-title {
-  font-size: 0.9375rem;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.4;
   letter-spacing: -0.01em;
@@ -707,7 +707,7 @@ body {
 .cert-row:hover .arrow { transform: translateX(3px); }
 
 .cert-info { display: flex; flex-direction: column; gap: 0.125rem; }
-.cert-title { font-size: 0.875rem; font-weight: 500; }
+.cert-title { font-size: 0.9375rem; font-weight: 500; }
 .cert-meta { font-family: var(--mono); font-size: 0.6875rem; color: var(--text-3); }
 
 .cert-row .arrow {
@@ -734,7 +734,7 @@ body {
 }
 
 .rec-quote {
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   color: var(--text-2);
   line-height: 1.65;
   font-style: italic;
@@ -742,8 +742,8 @@ body {
 }
 
 .rec-footer { border-top: 1px solid var(--border); padding-top: 0.75rem; }
-.rec-author { font-size: 0.8125rem; font-weight: 600; display: block; }
-.rec-role { font-size: 0.6875rem; color: var(--text-3); }
+.rec-author { font-size: 0.875rem; font-weight: 600; display: block; }
+.rec-role { font-size: 0.75rem; color: var(--text-3); }
 
 /* ---- Contact ---- */
 .section-contact { padding-bottom: 1.5rem; }
@@ -756,7 +756,7 @@ body {
 }
 
 .contact-links a {
-  font-size: 0.8125rem;
+  font-size: 0.9375rem;
   font-weight: 500;
   color: var(--text);
   text-decoration: none;
@@ -765,7 +765,7 @@ body {
 .contact-links a:hover { color: var(--text-2); }
 
 .contact-location {
-  font-size: 0.8125rem;
+  font-size: 0.9375rem;
   color: var(--text-3);
 }
 
