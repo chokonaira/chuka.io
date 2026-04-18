@@ -189,7 +189,7 @@ const recommendations = [
       <section id="projects" class="section">
         <div class="section-header">
           <span class="section-label">Personal Projects</span>
-          <h2 class="section-title">Things I've built</h2>
+          <h2 class="section-title">Few Things I've built</h2>
         </div>
 
         <div class="projects-grid">
